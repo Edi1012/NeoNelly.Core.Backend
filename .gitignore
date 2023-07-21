@@ -1,0 +1,7 @@
+__pycache__
+pruebasIsaac
+*.pyc
+
+# si usan vscode o pycharm agregar
+.vscode
+.idea
