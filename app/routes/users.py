@@ -1,6 +1,7 @@
 from fastapi import APIRouter, Body
 from fastapi.encoders import jsonable_encoder
 from models.user import ResponseModel, SchemaUser, ErrorResponseModel
+from fastapi.responses import RedirectResponse
 
 from server.database import (
     add_user,
@@ -61,3 +62,4 @@ async def delete_user_data(id: str):
     return ErrorResponseModel(
         "Hubo un error", 404, "Socio con id {0} no existe".format(id)
     )
+
