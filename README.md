@@ -4,6 +4,9 @@
 
 This project is currently under development, more details will be provided soon.
 
+## Requirements
+   Docker
+
 ## Installation
 
 To install and run this project locally, you will need to follow the next steps.
